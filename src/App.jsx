@@ -8,26 +8,19 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <h1>
+        JS-TS-UI-components
+      </h1>
+
+      <p>
+        Here you can find code snippets for UI components to use in your projects.
       </p>
+
+      <h5>
+        *You can contribute to this project by creating an issue on this repository: 
+        <br/>
+        <a href="https://github.com/SandeshGC/js-ts-ui-components">https://github.com/SandeshGC/js-ts-ui-components"</a>
+      </h5>
     </>
   )
 }
