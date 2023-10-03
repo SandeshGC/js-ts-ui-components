@@ -14,3 +14,9 @@ The goal is to create a website with UI components and their code. The user will
 - You can copy the code snippet and use it in your projects.
 
 *** I want to include source code for implementing the source code in other frameworks too. So, feel free to create issues and lets discuss what we can do to make the project better. ***
+
+#### Docker
+-to run docker file
+-docker build -t [any name] .
+-docker run -d --rm -p 5173:5173 --name [name of the container] [your docker image name]
+
